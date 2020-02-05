@@ -1,0 +1,171 @@
+/*#########################################
+  ---------- HOME PAGE 1 STYLES -----------
+  #########################################*/
+h5.more{
+    margin-top: 1rem;
+}
+
+h5.more::after{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f101";
+}
+
+hr.divider{
+    margin: 1.5rem auto 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.first-thumb img{
+    width: 100%;
+}
+
+.second-thumb img{
+    width: 100%;
+}
+
+.box-boder{
+    text-align: center;
+}
+
+.agrazo-icon{
+    width: 50px;
+    float: left;
+    margin-right: 15px;
+}
+
+.agrazo-icon img{
+    width: 100%;
+}
+
+.span-box .caption{
+    padding: 5px 0px;
+}
+
+.span-box .caption h4{
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.parallax-layer{
+    background-image: url("https://claytherapy.jp/therapist/201909lp/img/20191023_01.JPG");
+    height: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+
+.wide-right-layer{
+    height: auto;
+    background-color: #4DA592;
+    margin-top: 3rem;
+    margin-left: -6rem;
+    width: 1400px;
+    padding: 3rem 7rem 4.5rem 7rem;
+    z-index: 1;
+    position: relative;
+}
+
+.layer-content{
+    width: 60%;
+    padding-right: 3rem;
+}
+
+.layer-content h2{
+    font-weight: 300;
+    color: #FFF;
+    margin-bottom: 1.6rem;
+}
+
+.layer-content span{
+    font-weight: 700;
+}
+
+.layer-content h5{
+    color: #FFF;
+}
+
+.layer-content h5::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f58d";
+    margin-right: 10px;
+    color: #FFF;
+}
+
+.layer-content p{
+    color: #FFF;
+}
+
+.layer-icon-box{
+    margin-top: 0.6rem;
+    clear: both;
+}
+
+.layer-circle-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: solid 2px #FFF;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.layer-icon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.layer-icon img{
+    width: 100%;
+}
+
+.layer-caption h3{
+    margin-bottom: 5px;
+    color: #FFF;
+}
+
+.layer-caption p{
+    line-height: 1.7;
+}
+
+.services-thumbnail{
+    background: #FFF;
+    box-shadow: 0 0 10px rgba(204,204,204,0.6);
+    -moz-box-shadow: 0 0 10px rgba(204,204,204,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(204,204,204,0.6);
+    -o-box-shadow: 0 0 10px rgba(204,204,204,0.6);
+    cursor: pointer;
+}
+
+.service-thumb img{
+    width: 100%;
+}
+
+.service-caption{
+    padding: 1.2rem;
+}
+
+.service-caption p{
+    line-height: 1.7;
+}
+
+.service-caption h3{
+    color: #46866C;
+    transition: 0.3s ease;
+}
+
+.service-caption h5{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.services-thumbnail:hover .service-caption h3{
+    color: #EEC344;
+}
