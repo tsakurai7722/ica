@@ -104,7 +104,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
   line-height: 1.1;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
 }
 
 h1, .h1 {
@@ -144,7 +143,6 @@ h6, .h6 {
 
 p {
   font-size: 15px;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   color: #8c8c8c;
   font-weight: 400;
   line-height: 2;
@@ -179,7 +177,6 @@ a:hover {
   font-size: 1rem;
   line-height: 1.5;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   font-weight: 500;
   border: none;
   border-radius: 5px;
@@ -234,7 +231,6 @@ a.btn-hover-corner {
   overflow: hidden;
   transition: 0.3s ease;
   margin-bottom: 0px;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
 }
 
 a.btn-hover-corner:before {
@@ -278,7 +274,6 @@ a.btn-hover-corner:hover:after {
   border-radius: 0px;
   text-transform: none;
   font-weight: 400;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
 }
 
 .btn-tags:hover {
@@ -356,7 +351,6 @@ section {
   display: block;
   padding: 0.5rem 3rem;
   margin: 0px 5px 0px 10px;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   font-size: 14px;
   font-weight: normal;
   color: #fff;
@@ -423,7 +417,6 @@ section {
   line-height: 1.5;
   white-space: nowrap;
   transition: 0.4s;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   color: #FFF;
   font-weight: normal;
   font-size: 14px;
@@ -536,7 +529,6 @@ section {
 }
 
 .carousel-caption h2 {
-  font-family: 'Sawarabi Mincho', 'Noto Serif JP', serif;
   font-weight: 100;
 }
 
@@ -689,7 +681,6 @@ footer h4 {
 }
 
 .footer-nav ul li {
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   color: #FFF;
   font-size: 14px;
   font-weight: 400;
@@ -724,7 +715,6 @@ footer h4 {
   letter-spacing: 1px;
   text-indent: 5%;
   font-size: 12px;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
 }
 
 .newsletter .button {
@@ -740,7 +730,6 @@ footer h4 {
   cursor: pointer;
   color: #FFF;
   font-size: 12px;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
 }
 
 .newsletter p {
@@ -850,7 +839,6 @@ footer hr.divider {
   height: calc(2.25rem + 2px);
   padding: 0.375rem 0.75rem;
   font-size: 14px;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -881,7 +869,6 @@ footer hr.divider {
 
 .with-errors {
   font-size: 12px;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   text-align: left;
 }
 
@@ -889,7 +876,6 @@ footer hr.divider {
   color: #FFF;
   background-color: #EEC344;
   border-color: #EEC344;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -994,7 +980,6 @@ footer hr.divider {
   display: inline-block;
   float: left;
   font-size: 16px;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   color: #FFF;
 }
 
@@ -1166,7 +1151,6 @@ hr.divider {
 }
 
 .error-page .middle .error-number {
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   font-weight: 600;
   font-size: 6rem;
   color: #FFF;
@@ -1245,12 +1229,10 @@ hr.divider {
   padding: 10px 20px;
   color: #516163;
   font-size: 14px;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
 }
 
 .accordion a {
   width: 100%;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   display: block;
   cursor: pointer;
   font-weight: 500;
@@ -1404,7 +1386,6 @@ aside h3:after {
   padding: 0.50rem 0rem;
   margin-bottom: -1px;
   background-color: #fff;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   font-size: 14px;
   font-weight: 500;
   color: #516163;
@@ -1421,7 +1402,6 @@ aside h3:after {
   vertical-align: baseline;
   border-radius: 5px;
   float: right;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   background: #46866C;
   color: #FFF;
   font-weight: 400;
@@ -1514,7 +1494,6 @@ aside h3:after {
   color: #333;
   background-color: #fff;
   border: none;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   font-size: 18px;
   font-weight: 500;
 }
@@ -1699,7 +1678,6 @@ blockquote {
   border-left: 10px solid #EEC344;
   border-right: 2px solid #EEC344;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   font-style: italic;
 }
 
@@ -1833,7 +1811,6 @@ hr.comments {
   height: calc(2.25rem + 2px);
   padding: 0.375rem 0.75rem;
   font-size: 15px;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -1908,7 +1885,6 @@ hr.comments {
   ---------- 19. PRODUCTS DETAILS ----------
   ##########################################*/
 aside.left .list-group-item {
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   font-size: 15px;
   font-weight: 400;
 }
@@ -2709,17 +2685,11 @@ img.mfp-img {
 
 .js .cd-h-timeline__event-title {
   font-size: 1rem;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
 }
 
 .js .cd-h-timeline__date {
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   font-size: 1rem;
   font-weight: 500;
-}
-
-.js .cd-h-timeline__event-date {
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
 }
 
 /*#################################
@@ -2738,7 +2708,6 @@ img.mfp-img {
 .counter-statistics .counter {
   font-size: 1.5rem;
   font-weight: 100;
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
 }
 
 .counter-statistics h5 {
@@ -3394,7 +3363,6 @@ img.mfp-img {
     color: #8c8c8c;
     font-weight: 500;
     font-size: 16px;
-    font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
   }
 
   .no-touch .cd-tab-filter a:hover {
@@ -3509,98 +3477,4 @@ img.mfp-img {
     padding: 0 0.4em;
     font-size: 14px;
   }
-}
-
-/* 20191207 */
-.contact-form .form-group {
-  font-family: 'EB Garamond', 'Noto Serif JP', sans-serif;
-}
-
-.contact-form .form-group h3 {
-  border-bottom: solid #DDD 1px;
-  color: #495057;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.5;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-}
-
-.contact-form .form-group-list {
-  align-items: center;
-  display: flex;
-  width: 100%;
-}
-
-.contact-form .form-group-list:not(.input-list) {
-  margin-top: 1em;
-}
-
-.contact-form .form-group-list input[type="number"] {
-  width: 20%;
-}
-
-.contact-form .form-group-list input[type="number"]+span {
-  margin: 0 1em;
-}
-
-.contact-form .form-group-list .first {
-  margin-right: 1em;
-}
-
-.contact-form .form-group-list label {
-  align-items: center;
-  display: flex;
-  position: relative;
-}
-
-.radio-list-label {
-  color: #495057;
-  display: block;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1;
-  margin-left: 0.5em;
-}
-
-.privacy-box {
-  border: solid #DDD 1px;
-  color: #495057;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.5;
-  height: 10em;
-  opacity: 0.6;
-  overflow: auto;
-  padding: 0.375rem 0.75rem;
-}
-
-.check-label {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1;
-  margin-left: 0.5em;
-}
-
-/* 20200216 */
-.sns-icon-list {
-  display: flex;
-  justify-content: space-between;
-  width: 208px;
-  height: 32px;
-}
-
-@media (max-width: 991px) {
-  .sns-icon-list {
-    margin: 10px 0 0 15px;
-  }
-}
-
-.sns-icon-list li {
-  width: 32px;
-}
-
-.sns-icon-list a,
-.sns-icon-list img {
-  display: block;
 }
