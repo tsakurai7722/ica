@@ -1,0 +1,395 @@
+@charset "UTF-8";
+
+html, body {
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.main {
+  display: block;
+}
+
+/* nav */
+.main-nav {
+  margin: 0;
+}
+
+/* mv */
+.main-slider {
+  height: auto;
+  margin-top: -60px;
+}
+
+.carousel-item {
+  height: 600px;
+}
+
+.carousel-item::before {
+  content: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+.carousel-caption {
+  top: 5.4rem;
+  padding: 5.4rem 0 0;
+}
+
+.carousel-caption h2 {
+  font-size: 36px;
+  line-height: 1em;
+}
+
+.carousel-caption span {
+  display: block;
+}
+
+.carousel-caption .jp {
+  font-size: 20px;
+}
+
+/* about */
+.about {
+  margin: 60px auto 120px;
+}
+
+.about.container {
+  max-width: 960px;
+}
+
+.about .title-min {
+  font-size: 13px;
+}
+
+.about h2 {
+  font-size: 30px;
+}
+
+.about p {
+  font-size: 15px;
+  line-height: 2.2;
+}
+
+.about .row {
+  justify-content: space-between;
+}
+
+.about .col-lg-6 {
+  width: 450px;
+  flex: none;
+  padding: 0;
+}
+
+/* service */
+.service {
+  background: rgba(166, 195, 201, 0.72);
+  padding: 60px 0 110px;
+}
+
+.service .container {
+  margin: auto;
+}
+
+.service h2 {
+  font-size: 20px;
+}
+
+.service h2+p {
+  font-size: 14px;
+}
+
+.service .section-title {
+  width: 660px;
+}
+
+.service .slick-list {
+  overflow: inherit;
+}
+
+.service-caption p {
+  font-size: 10px;
+  line-height: 1.6;
+  max-height: 14.4em;
+  overflow: hidden;
+}
+
+.service-caption {
+  color: #707070;
+  height: 220px;
+  padding: 10px;
+  position: relative;
+}
+
+.service-caption h3 {
+  color: #707070;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.service-caption h4 {
+  font-size: 10px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.service-caption h4 a {
+  color: #F9BF00;
+}
+
+/* parallax */
+.prlx {
+  margin: 120px auto;
+}
+
+.prlx .parallax-layer {
+  background: url(../img/lp/prlx.png) no-repeat right center;
+  height: 600px;
+}
+
+.prlx .row>* {
+  padding: 0;
+}
+
+.prlx h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.prlx .wide-right-layer {
+  margin: 0;
+  padding: 60px 0 0 50px;
+  height: 100%;
+  width: 100%;
+}
+
+.prlx .layer-content {
+  width: 430px;
+  padding: 0;
+}
+
+/* whyus */
+.whyus .row {
+  justify-content: center;
+}
+
+.whyus .col-lg-6 {
+  flex: none;
+  padding: 0;
+}
+
+.whyus-wrapper {
+  margin-right: 44px;
+  float: right;
+  width: 432px;
+}
+
+.whyus h2 {
+  font-size: 28px;
+  margin-bottom: 1em;
+}
+
+.whyus p {
+  color: #000;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.whyus p+p {
+  margin-top: 1em;
+}
+
+/* report */
+.report {
+  background: rgba(166, 195, 201, 0.72);
+  margin-bottom: 120px;
+  padding: 60px 0;
+}
+
+.report .container {
+  margin: auto;
+}
+
+.report .slick-list {
+  overflow: inherit;
+}
+
+.report .slide {
+  padding-bottom: 0;
+}
+
+.report h3 {
+  margin-bottom: 0;
+}
+
+.report ul {
+  color: #F9BF00;
+  margin-bottom: 10px;
+}
+
+.report li {
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+/* contact-form */
+.container.contact {
+  margin: 60px auto 120px;
+}
+
+.contact-form {
+  box-shadow: none !important;
+  border: 1px solid #707070;
+  max-width: 780px;
+  margin: auto;
+}
+
+.contact-enter {
+  font-size: 36px;
+}
+
+/* footer */
+footer {
+  background: #7BA8A8;
+  padding: 30px 0;
+}
+
+footer .container {
+  margin: auto;
+  max-width: 960px;
+  padding: 0;
+}
+
+footer .copytight {
+  float: none;
+  text-align: center;
+}
+
+footer .row {
+  justify-content: space-between;
+}
+
+footer .col-lg-4 {
+  flex: none;
+}
+
+/* 20191207 */
+.contact-form .form-group h3 {
+  border-bottom: solid #DDD 1px;
+  color: #495057;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.contact-form .form-group-list {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.contact-form .form-group-list:not(.input-list) {
+  margin-top: 1em;
+}
+
+.contact-form .form-group-list input[type="number"] {
+  width: 20%;
+}
+
+.contact-form .form-group-list input[type="number"]+span {
+  margin: 0 1em;
+}
+
+.contact-form .form-group-list .first {
+  margin-right: 1em;
+}
+
+.contact-form .form-group-list label {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.radio-list-label {
+  color: #495057;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 0.5em;
+}
+
+.privacy-box {
+  border: solid #DDD 1px;
+  color: #495057;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  height: 10em;
+  opacity: 0.6;
+  overflow: auto;
+  padding: 0.375rem 0.75rem;
+}
+
+.check-label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 0.5em;
+}
+
+/* 20200216 */
+.sns-icon-list {
+  display: flex;
+  justify-content: space-between;
+  width: 338px;
+  height: 50px;
+  margin-bottom: 26px;
+}
+
+@media (max-width: 991px) {
+  .sns-icon-list {
+    margin: 10px 0 0 22px;
+  }
+}
+
+.sns-icon-list li {
+  width: 50px;
+}
+
+.sns-icon-list a,
+.sns-icon-list img {
+  display: block;
+  max-width: 100%;
+}
+
+/* 20200229 */
+.font__ColorGreen {
+  color: #35887a;
+}
+
+.about-agroland h2 {}
+
+#floatingmenu {
+  position: fixed;
+  top: 89%;
+  left: 31%;
+  right: 31%;
+  bottom: 1.78rem;
+  z-index: 9999;
+}
+
+#floatingmenu a {
+  background-color: #3E8C80;
+  border-radius: 15px;
+  color: #fff;
+  display: block;
+  font-size: 30px;
+  letter-spacing: 0.4em;
+  text-align: center;
+  padding: 5px 70px;
+}
