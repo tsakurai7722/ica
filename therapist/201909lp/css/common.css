@@ -272,6 +272,7 @@ footer .row {
 }
 
 footer .col-lg-4 {
+  max-width: 33.333333%;
   flex: none;
 }
 
@@ -351,12 +352,6 @@ footer .col-lg-4 {
   margin-bottom: 26px;
 }
 
-@media (max-width: 991px) {
-  .sns-icon-list {
-    margin: 10px 0 0 22px;
-  }
-}
-
 .sns-icon-list li {
   width: 50px;
 }
@@ -371,8 +366,6 @@ footer .col-lg-4 {
 .font__ColorGreen {
   color: #35887a;
 }
-
-.about-agroland h2 {}
 
 #floatingmenu {
   position: fixed;
@@ -392,4 +385,207 @@ footer .col-lg-4 {
   letter-spacing: 0.4em;
   text-align: center;
   padding: 5px 70px;
+}
+
+.pcbr {
+  display: inherit;
+}
+
+.spbr {
+  display: none;
+}
+
+/* SP */
+@media (max-width: 850px) {
+  .logo-brand {
+    margin: 0;
+    padding: 0;
+    width: 143px;
+  }
+
+  .navbar-toggler {
+    margin-top: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .carousel-item {
+    height: 100vw;
+  }
+
+  .carousel-caption {
+    top: calc(50% - 2em);
+    padding: 0;
+  }
+
+  .carousel-caption .en {
+    font-size: 20px;
+  }
+
+  .carousel-caption .jp {
+    font-size: 14px;
+  }
+
+  .about {
+    margin: 40px auto 80px;
+    padding: 0 20px;
+  }
+
+  .about .row {
+    margin: 0;
+  }
+
+  .about h2 {
+    font-size: 20px;
+  }
+
+  .about .col-lg-6 {
+    width: 100%;
+  }
+
+  .about-agroland {
+    border-bottom: 1px solid #707070;
+    padding-bottom: 24px;
+  }
+
+  .space-break {
+    margin-top: 20px;
+  }
+
+  .service {
+    padding: 40px 0;
+  }
+
+  .service .section-title {
+    width: 100%;
+    margin-bottom: 0.8rem;
+  }
+
+  .customer-logos .slide {
+    padding: 0 30px 10px;
+  }
+
+  .service-caption {
+    min-height: 220px;
+    height: auto;
+  }
+
+  .service .slick-list,
+  .report .slick-list {
+    overflow: hidden;
+  }
+
+  .prlx {
+    margin: 80px auto;
+  }
+
+  .prlx .parallax-layer {
+    background-size: cover;
+    height: 90.6vw;
+  }
+
+  .prlx .wide-right-layer {
+    padding: 40px 20px;
+  }
+
+  .prlx .layer-content {
+    width: 100%;
+  }
+
+  .layer-icon-box {
+    margin-top: 0.86rem;
+  }
+
+  .layer-caption p {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+
+  .whyus {
+    margin: 80px auto;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .whyus .row {
+    margin: 0;
+  }
+
+  .whyus h2 {
+    font-size: 24px;
+  }
+
+  .whyus p {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  .whyus-wrapper {
+    float: none;
+    width: 100%;
+  }
+
+  .report {
+    margin-bottom: 80px;
+    padding: 40px 0;
+  }
+
+  .container.contact {
+    margin: 20px auto 80px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  footer .col-lg-4 {
+    width: 143px;
+    padding: 0;
+  }
+
+  footer .row {
+    margin: auto;
+  }
+
+  .footer-logo {
+    width: 100%;
+  }
+
+  .sns-icon-list {
+    height: 25px;
+    width: 157px;
+    margin-bottom: 24px;
+  }
+
+  .sns-icon-list li {
+    width: 25px;
+  }
+
+  .bottom-footer {
+    margin: 0;
+  }
+
+  .copytight p {
+    font-size: 10px;
+  }
+
+  #floatingmenu {
+    left: 21%;
+    right: 21%;
+  }
+
+  #floatingmenu a {
+    font-size: 20px;
+    letter-spacing: normal;
+    padding: 15px;
+  }
+
+  .pcbr {
+    display: none;
+  }
+
+  .spbr {
+    display: inherit;
+  }
 }
